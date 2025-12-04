@@ -1,29 +1,47 @@
-# DevArchitecture
+# 🧪 Kalite Yıkama Modülü
 
-DevArchitecture Open Source Rapid Application Framework for .Net 7
+Endüstriyel yıkama süreçlerinde **sipariş**, **makine** ve **hata yönetimini** tek bir ekranda toplayan,  
+**DevArchitecture** altyapısıyla geliştirilmiş **çok katmanlı bir kalite kontrol modülü**.
 
-For full documentation support [DevArchitecture](https://www.devarchitecture.net)
+> Amaç: Üretim hattındaki yıkama operasyonlarını standartlaştırmak,  
+> hata analizini görünür kılmak ve karar mekanizmasını hızlandırmak.
 
-[DevArchitecture Visual Studio Extensions](https://marketplace.visualstudio.com/search?term=devarchitecture&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance)
+---
 
-![](https://www.devarchitecture.net/assets/images/image1-ce8537e256c57d119ad5559b6217d4c9.png)
+## 🌟 Öne Çıkanlar
 
-# Support the DevArchitecture 
+- 🎯 **Gerçek bir iş senaryosu**: Yıkama sürecinde sipariş, makine ve hata yönetimi
+- 🧱 **DevArchitecture** tabanlı temiz ve ölçeklenebilir mimari
+- 🧮 **Anlık kalite hesapları**:  
+  - Toplam kontrol edilen ürün  
+  - Hatalı ürün sayısı  
+  - Hata yüzdesi ve geçme/kalma kararı
+- 🔐 Kullanıcı, rol ve sayfa bazlı yetkilendirme
+- 🌍 Türkçe & İngilizce çok dillilik desteği
+- 🗂 Soft delete + audit alanları ile **kurumsal standart uyumu**
 
-If you liked DevArchitecture Open Source Rapid Application Framework for .Net 7? 
+---
 
-## Please give a star to this repository ⭐
+## 🧰 Teknolojiler
 
-# Build Project with Any Terminal
+| Katman     | Teknoloji / Araçlar                                         |
+|-----------|--------------------------------------------------------------|
+| Backend   | .NET (DevArchitecture), Web API, CQRS, FluentValidation      |
+| Frontend  | Angular, TypeScript, RxJS, SCSS                              |
+| Database  | MS SQL Server, Entity Framework Core                         |
+| Diğer     | AutoMapper, JWT Auth, Repository Pattern, Global Filters     |
 
-``> dotnet build``
+---
 
-``
-Build succeeded.
-0 Warning(s)
-0 Error(s)
-``
+## 🏗 Mimari Genel Bakış
 
-# Run Api Project with Any Terminal
-``> dotnet dev-certs https --trust``
-``> dotnet watch run --project ./WebAPI/WebAPI.csproj``
+Proje, **DevArchitecture** şablonu kullanılarak, çok katmanlı ve modüler bir şekilde kurgulandı:
+
+```text
+Solution
+├── Core
+├── Entities
+├── DataAccess
+├── Business
+├── WebAPI
+└── WebUI (Angular)
