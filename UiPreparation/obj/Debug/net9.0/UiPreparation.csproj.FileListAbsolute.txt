@@ -1,0 +1,15 @@
+/Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/UiPreparation/bin/Debug/net9.0/UiPreparation
+/Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/UiPreparation/bin/Debug/net9.0/UiPreparation.deps.json
+/Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/UiPreparation/bin/Debug/net9.0/UiPreparation.runtimeconfig.json
+/Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/UiPreparation/bin/Debug/net9.0/UiPreparation.dll
+/Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/UiPreparation/bin/Debug/net9.0/UiPreparation.pdb
+/Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/UiPreparation/obj/Debug/net9.0/UiPreparation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/UiPreparation/obj/Debug/net9.0/UiPreparation.AssemblyInfoInputs.cache
+/Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/UiPreparation/obj/Debug/net9.0/UiPreparation.AssemblyInfo.cs
+/Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/UiPreparation/obj/Debug/net9.0/UiPreparation.csproj.CoreCompileInputs.cache
+/Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/UiPreparation/obj/Debug/net9.0/UiPreparation.sourcelink.json
+/Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/UiPreparation/obj/Debug/net9.0/UiPreparation.dll
+/Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/UiPreparation/obj/Debug/net9.0/refint/UiPreparation.dll
+/Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/UiPreparation/obj/Debug/net9.0/UiPreparation.pdb
+/Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/UiPreparation/obj/Debug/net9.0/UiPreparation.genruntimeconfig.cache
+/Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/UiPreparation/obj/Debug/net9.0/ref/UiPreparation.dll

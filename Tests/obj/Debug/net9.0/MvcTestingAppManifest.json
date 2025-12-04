@@ -1,0 +1,7 @@
+{
+  "Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/yalpcosar\/Desktop\/SiparişSistemProjesi\/OrderSystemProject\/Business",
+  "Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/yalpcosar\/Desktop\/SiparişSistemProjesi\/OrderSystemProject\/Core",
+  "DataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/yalpcosar\/Desktop\/SiparişSistemProjesi\/OrderSystemProject\/DataAccess",
+  "Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/yalpcosar\/Desktop\/SiparişSistemProjesi\/OrderSystemProject\/Entities",
+  "WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/yalpcosar\/Desktop\/SiparişSistemProjesi\/OrderSystemProject\/WebAPI"
+}
