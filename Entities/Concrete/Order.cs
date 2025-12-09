@@ -1,16 +1,20 @@
-﻿using Core.Entities;
-using System;
+using System.ComponentModel.DataAnnotations;
+using Core.Entities;
 
 namespace Entities.Concrete
 {
-    public class Order: BaseEntity, IEntity
+    public class Order: BaseEntity
     {
+        [Required]
+        [StringLength(50)]
+        public string OrderNo { get; set; }
+        
+        [Required]
+        [StringLength(100)]
+        public string ModelName { get; set; }
 
-        public int CustomerId { get; set; }
-        public int ProductId { get; set; }
-        public int Quantity { get; set; }
-
-        public virtual Customer Customer { get; set; }
-        public virtual Product Product { get; set; }
+        [Required]
+        [StringLength(50)]
+        public string FabricType { get; set; }
     }
 }
