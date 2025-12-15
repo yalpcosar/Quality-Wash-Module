@@ -1,7 +1,7 @@
 {
-  "Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/yalpcosar\/Desktop\/SiparişSistemProjesi\/OrderSystemProject\/Business",
-  "Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/yalpcosar\/Desktop\/SiparişSistemProjesi\/OrderSystemProject\/Core",
-  "DataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/yalpcosar\/Desktop\/SiparişSistemProjesi\/OrderSystemProject\/DataAccess",
-  "Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/yalpcosar\/Desktop\/SiparişSistemProjesi\/OrderSystemProject\/Entities",
-  "WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/yalpcosar\/Desktop\/SiparişSistemProjesi\/OrderSystemProject\/WebAPI"
+  "Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/yalpcosar\/Desktop\/dotNET Projects\/Quality wash module\/Business",
+  "Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/yalpcosar\/Desktop\/dotNET Projects\/Quality wash module\/Core",
+  "DataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/yalpcosar\/Desktop\/dotNET Projects\/Quality wash module\/DataAccess",
+  "Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/yalpcosar\/Desktop\/dotNET Projects\/Quality wash module\/Entities",
+  "WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/yalpcosar\/Desktop\/dotNET Projects\/Quality wash module\/WebAPI"
 }

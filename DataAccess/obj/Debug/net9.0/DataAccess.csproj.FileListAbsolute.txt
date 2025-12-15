@@ -18,3 +18,23 @@
 /Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/DataAccess/obj/Debug/net9.0/DataAccess.pdb
 /Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/DataAccess/obj/Debug/net9.0/DataAccess.genruntimeconfig.cache
 /Users/yalpcosar/Desktop/SiparişSistemProjesi/OrderSystemProject/DataAccess/obj/Debug/net9.0/ref/DataAccess.dll
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/bin/Debug/net9.0/DataAccess.deps.json
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/bin/Debug/net9.0/DataAccess.runtimeconfig.json
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/bin/Debug/net9.0/DataAccess.dll
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/bin/Debug/net9.0/DataAccess.pdb
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/bin/Debug/net9.0/Core.dll
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/bin/Debug/net9.0/Entities.dll
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/bin/Debug/net9.0/Core.pdb
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/bin/Debug/net9.0/Entities.pdb
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/obj/Debug/net9.0/DataAccess.csproj.AssemblyReference.cache
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/obj/Debug/net9.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/obj/Debug/net9.0/DataAccess.AssemblyInfoInputs.cache
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/obj/Debug/net9.0/DataAccess.AssemblyInfo.cs
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/obj/Debug/net9.0/DataAccess.csproj.CoreCompileInputs.cache
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/obj/Debug/net9.0/DataAccess.sourcelink.json
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/obj/Debug/net9.0/DataAccess.csproj.Up2Date
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/obj/Debug/net9.0/DataAccess.dll
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/obj/Debug/net9.0/refint/DataAccess.dll
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/obj/Debug/net9.0/DataAccess.pdb
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/obj/Debug/net9.0/DataAccess.genruntimeconfig.cache
+/Users/yalpcosar/Desktop/dotNET Projects/Quality wash module/DataAccess/obj/Debug/net9.0/ref/DataAccess.dll
