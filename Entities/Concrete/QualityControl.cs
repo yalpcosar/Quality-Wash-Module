@@ -1,7 +1,6 @@
 using System;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using Core.Entities;
+using Core.Entities.Concrete;
 using Core.Enums;
 
 namespace Entities.Concrete
@@ -18,8 +17,10 @@ namespace Entities.Concrete
 
     public int SpinningMachineId { get; set; }
     public virtual Machine SpinningMachine { get; set; }
-    public int MachineOperatorId { get; set; } 
+    public int MachineOperatorId { get; set; }
+    public virtual User MachineOperator { get; set; }
     public int SupervisorId { get; set; } 
+    public virtual User Supervisor { get; set; }
     public ShiftType Shift { get; set; } 
     public string BrandNo { get; set; } 
     public int TotalQuantity { get; set; } 

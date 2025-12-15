@@ -4,15 +4,18 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace DataAccess.Concrete.Configurations
 {
-    public class MachineConfiguration : IEntityTypeConfiguration<Machine>
+    public class MachineConfiguration : BaseConfiguration<Machine>
     {
-        public void Configure(EntityTypeBuilder<Machine> builder)
+        public  override void Configure(EntityTypeBuilder<Machine> builder)
         {
             builder.ToTable("Machines");
-            builder.HasKey(x => x.Id);
 
             builder.Property(x => x.Name).HasMaxLength(100).IsRequired();
+            builder.HasIndex(x => x.Name).IsUnique();
             builder.Property(x => x.MachineType).IsRequired(); // Enum int olarak tutulur
+            builder.HasQueryFilter(x => !x.IsDeleted);
+            
+            base.Configure(builder);
         }
     }
 }

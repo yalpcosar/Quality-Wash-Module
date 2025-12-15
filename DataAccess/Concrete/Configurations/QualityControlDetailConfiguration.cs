@@ -4,17 +4,18 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace DataAccess.Concrete.Configurations
 {
-    public class QualityControlDetailConfiguration : IEntityTypeConfiguration<QualityControlDetail>
+    public class QualityControlDetailConfiguration : BaseConfiguration<QualityControlDetail>
     {
-        public void Configure(EntityTypeBuilder<QualityControlDetail> builder)
+        public override void Configure(EntityTypeBuilder<QualityControlDetail> builder)
         {
             builder.ToTable("QualityControlDetails");
-            builder.HasKey(x => x.Id);
+
+            builder.HasIndex(x => new { x.QualityControlId, x.DefectId }).IsUnique();
 
             builder.HasOne(x => x.QualityControl)
-                   .WithMany() // QualityControl içinde ICollection<Detail> yoksa boş bırakılır
+                   .WithMany() 
                    .HasForeignKey(x => x.QualityControlId)
-                   .OnDelete(DeleteBehavior.Cascade); // Ana kontrol silinirse detaylar da silinsin
+                   .OnDelete(DeleteBehavior.Cascade); 
 
             builder.HasOne(x => x.Defect)
                    .WithMany()
@@ -22,6 +23,10 @@ namespace DataAccess.Concrete.Configurations
                    .OnDelete(DeleteBehavior.Restrict);
 
             builder.Property(x => x.DefectQuantity).IsRequired();
+
+            builder.HasQueryFilter(x => !x.IsDeleted);
+
+            base.Configure(builder);
         }
     }
 }
